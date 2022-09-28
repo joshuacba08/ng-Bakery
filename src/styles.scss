@@ -1,1 +1,38 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300&family=Playfair+Display:wght@400;500;600&display=swap');
+
+:root{
+    --just-black: #18181b;
+    --just-white: #FFFFFF;
+    --fill-yellow: #e1be64;
+    --black-text: #333333;
+    --fill-grey:#a9b8c3;
+    --font-playfair: 'Playfair Display', serif;
+    --font-open-sans: 'Open Sans', sans-serif;
+}
+
+*{
+  box-sizing: content-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body{
+  font-family: var(--font-open-sans);
+}
+
+li{
+  list-style: none;
+}
+
+button{
+  border: none;
+  background: none;
+}
+
+a{
+  text-decoration: none;
+  color:var(--just-black);
+}
+
+
+
