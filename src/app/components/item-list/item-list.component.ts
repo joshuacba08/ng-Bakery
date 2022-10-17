@@ -8,13 +8,18 @@ import { DataService } from '../../services/data.service';
 })
 export class ItemListComponent implements OnInit {
 
-  arrayProducts: any[] = [];
+  arrayProducts: any[]=[]; //aca guardare mis productos
 
   constructor( private dataService: DataService) { }
 
   ngOnInit(): void {
 
-    this.dataService.getProducts().subscribe( )
+    this.dataService.getProducts().subscribe(
+      resp => {
+        this.arrayProducts = resp
+        console.log(this.arrayProducts)
+      }
+    )
 
   }
 

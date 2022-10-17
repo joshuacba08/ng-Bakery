@@ -1,1 +1,13 @@
-<p>item works!</p>
+<article class="product-card">
+
+  <div class="product-card__img">
+    <img [src]="product.image" alt="">
+  </div>
+
+  <div class="product-card__info">
+    <h2 class="info__title">{{product.productName}}</h2>
+    <p class="info__description">{{product.description}}</p>
+    <span class="info__price">${{product.price}}</span>
+  </div>
+
+</article>

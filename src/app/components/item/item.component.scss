@@ -1,0 +1,39 @@
+.product-card{
+  width: 340px;
+  height: 460px;
+  border-radius: 12px;
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  overflow: hidden;
+
+  &__img{
+    width: 100%;
+    height: 250px;
+
+    img{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  &__info{
+    padding: 15px;
+
+    .info__title{
+      text-align: center;
+      margin: 0 0 12px 0;
+    }
+
+    .info__description{
+      line-height: 1.4rem;
+    }
+
+    .info__price{
+      display: block;
+      font-weight: 700;
+      text-align: right;
+      font-size: 1.2rem;
+    }
+  }
+
+}
