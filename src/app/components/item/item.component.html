@@ -8,6 +8,7 @@
     <h2 class="info__title">{{product.productName}}</h2>
     <p class="info__description">{{product.description}}</p>
     <span class="info__price">${{product.price}}</span>
+    <app-item-count [product]="product" ></app-item-count>
   </div>
 
 </article>

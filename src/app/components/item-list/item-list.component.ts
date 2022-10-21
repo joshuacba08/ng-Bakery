@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { DataService } from '../../services/data.service';
+import { Product } from '../../../assets/data/products.models';
 
 @Component({
   selector: 'app-item-list',
@@ -8,7 +9,7 @@ import { DataService } from '../../services/data.service';
 })
 export class ItemListComponent implements OnInit {
 
-  arrayProducts: any[]=[]; //aca guardare mis productos
+  arrayProducts: Product[]=[]; //aca guardare mis productos
 
   constructor( private dataService: DataService) { }
 

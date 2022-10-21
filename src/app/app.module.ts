@@ -10,6 +10,7 @@ import { CartWidgetComponent } from './components/cart-widget/cart-widget.compon
 import { ItemListComponent } from './components/item-list/item-list.component';
 import { ItemComponent } from './components/item/item.component';
 import { HomeComponent } from './pages/home/home.component';
+import { ItemCountComponent } from './components/item-count/item-count.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { HomeComponent } from './pages/home/home.component';
     CartWidgetComponent,
     ItemListComponent,
     ItemComponent,
-    HomeComponent
+    HomeComponent,
+    ItemCountComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,8 @@
+<div class="count">
+  <div class="count__controlls">
+    <button (click)="addCount(-1)" [disabled]="count <= 1">-</button>
+    <div>{{ count }}</div>
+    <button (click)="addCount(1)" [disabled]="count >= stock">+</button>
+  </div>
+  <button class="count__action" (click)="addToCart(product)">Añadir al carrito</button>
+</div>
